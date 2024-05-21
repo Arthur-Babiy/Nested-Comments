@@ -15,7 +15,7 @@ btnForm.onclick = function() {
 
     document.querySelector('#error').innerHTML = '';
 
-    // Встановимо нове значення для підрахунку коментарів
+    // new value for the comment count
 
 
     if(countComments == 0) {    
@@ -32,7 +32,7 @@ btnForm.onclick = function() {
 
         document.querySelector('#comments').insertAdjacentHTML('afterbegin', newComment);
 
-        // Очистка форми
+        // Form cleaning
 
         form.comment.value = "";
 };
